@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Ant Design Pro V5 脚手架
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 介绍
 
-Currently, two official plugins are available:
+React + TypeScript + Vite + Ant Design Pro V5 脚手架，基于 React + TypeScript + Vite + Ant Design Pro V5 开发的脚手架，集成了常用的功能模块，可以帮助你快速搭建企业级中后台应用。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 功能
 
-## Expanding the ESLint configuration
+- 基于 React + TypeScript + Vite + Ant Design Pro V5 开发的脚手架
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 安装
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+yarn
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 运行
+
+```bash
+yarn dev
+```
+
+## 打包
+
+1. 开发环境
+
+```bash
+yarn build
+```
